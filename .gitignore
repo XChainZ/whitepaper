@@ -1,0 +1,40 @@
+# Ignore Compiled Python Files
+*.pyc
+
+# Ignore server specific settings files and .env files
+keys.json
+.env
+
+# Ignore virtual environment directory
+venv/
+
+#ignore log files
+*.log
+
+#ignore local Django settings
+local.py
+
+#Ignore the mac specific info
+.DS_Store
+
+#ignore data files and csv files
+
+
+# ignore unit test coverage files
+
+
+# ignore migrations folders
+migrations/
+
+# ignore IntelliJ directories and settings
+*.iml
+.idea/
+
+# ignore the directory called pics
+pics/
+
+.gnupg
+
+# ignore the localhost.key and localhost.cert
+*.crt
+*.key
